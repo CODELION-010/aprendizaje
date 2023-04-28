@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TransMilenio</title>
+</head>
+
+<body>
+    <form action="transmilenio.php" method="post">
+        <label for="">Saldo de Su Tarjeta</label>
+        <input type="number" name="saldo" id="saldo"><br>
+        <label>Seleccione Tipo de Usuuario</label>
+        <select name="select" id="select">
+            <option value="sel">seleccionar</option>
+            <option value="USNR">Usuario no Registado</option>
+            <option value="USSIV">Usuario Siben IV</option>
+            <option value="USAM">Usuario Adulto Mayor</option>
+        </select><br>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+
+</html>
